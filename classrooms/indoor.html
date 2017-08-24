@@ -1,0 +1,104 @@
+<!DOCTYPE HTML>
+<html class="" lang="en">
+<head>
+ <style>
+       #map {
+        height: 400px;
+        width: 100%;
+       }
+    </style>
+<link rel="stylesheet" href="//cdn.metalab.csun.edu/metaphor/css/metaphor.css">
+
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSUN | Classroom Profiles</title>
+  <meta name="description" content="">
+  <link rel="icon" href="//www.csun.edu/sites/default/themes/csun/favicon.ico" type="image/x-icon">
+
+  <!-- CSUN Branded Fonts -->
+  <script src="//use.typekit.net/gfb2mjm.js"></script>
+  <script>try{Typekit.load();}catch(e){}</script>
+
+  <link rel="stylesheet" href="http://cdn.metalab.csun.edu/metaphor/css/metaphor.css">
+  <link rel="stylesheet" href="../your-personal-project/path/to/styles.css">
+</head>
+<body>
+
+
+
+<nav class="primary-nav">
+  <div class="container">
+    <div class="primary-nav__mobile">
+      <div class="primary-nav__btn">
+        <div class="bar"></div>
+        <div class="bar"></div>
+        <div class="bar"></div>
+      </div>
+      <a class="primary-nav__brand"><span class="sr-only">California State University, Northridge (CSUN)</span>
+      </a>
+      <a href="" class="primary-nav__sub-brand">Classroom Profiles</a>
+      <a href="" class="primary-nav__sub-brand">EU 103</a>
+    </div>
+    
+    <ul class="primary-nav__links">
+      <li><a class="primary-nav__link active" href="classLocation.html">Classroom</a></li>
+      <li><a class="primary-nav__link" href="parking.html">Parking</a></li>
+      <li><a class="primary-nav__link" href="food.html">Food</a></li>
+    </ul>
+  </div>
+</nav>
+
+
+<!-- <h3>EU 103</h3> -->
+    <div><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d327.12987092932724!2d-118.42010732258133!3d34.315044309732315!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c28e216349c363%3A0x4a36b9fff5198ac5!2sInstructional+Building%2C+13356+Eldridge+Ave%2C+Sylmar%2C+CA+91342!5e0!3m2!1sen!2sus!4v1491940618055" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe></div>
+    <script>
+      function initMap() {
+
+        var uluru = {lat: 34.240584, lng: -118.532756};
+        var map = new google.maps.Map(document.getElementById('map'), {
+          zoom: 18,
+          center: uluru
+        });
+        var marker = new google.maps.Marker({
+          position: uluru,
+          map: map
+        });
+      }
+    </script>
+
+<!-- nearest food to EU: 34.238956, -118.531206 -->
+<!-- nearest parking to EU: B4: 34.239901, -118.533110 -->
+
+
+
+<div class="tab-container">
+  <ul class="tabs cf">
+    
+    <li class="tab__list">
+     <a class="tab__link" href="classLocation.html">Equipment</a>
+    </li>
+    <li class="tab__list">
+      <a class="tab__link" href="images.html">Images</a>
+    </li>
+    <li class="tab__list">
+      <a class="tab__link tab__link--active" href="indoor.html">Indoor Amenities</a>
+    </li>
+    <li class="tab__list">
+      <a class="tab__link" href="next-class.html">Next Class</a>
+    </li>
+    
+  </ul>
+</div>
+
+<center><h5 style="margin-top:50px;">Indoor navigation to nearby amenities -- coming soon</h5></center>
+
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCiHLIaj9ngdr_9WMO7c3GNPiGNoIEE-II&callback=initMap">
+    </script>
+
+
+  <script src="//cdn.metalab.csun.edu/metaphor/js/metaphor.js"></script>
+</body>
+</html>
+
